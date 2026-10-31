@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cluedo · friends edition</title>
+<meta name="description" content="A private Cluedo-style whodunit for you and your friends. Plays in the browser, peer to peer.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='42' cy='42' r='26' fill='none' stroke='%23c9a24b' stroke-width='9'/%3E%3Cpath d='M62 62l24 24' stroke='%23c9a24b' stroke-width='11' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="dlg-form"></dialog>
+<dialog id="dlg-refute"></dialog>
+<dialog id="dlg-over"></dialog>
+<dialog id="dlg-rules"></dialog>
+<div id="curtain" hidden></div>
+<noscript>This game needs JavaScript.</noscript>
+<script src="vendor/peerjs.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

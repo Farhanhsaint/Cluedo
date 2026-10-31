@@ -1,0 +1,12 @@
+{
+  "name": "cluedo-friends",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A Cluedo-style deduction game for friends. Static site + WebRTC peer-to-peer, hostable on GitHub Pages.",
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs tests/host.test.mjs",
+    "start": "python3 -m http.server 8080"
+  },
+  "license": "MIT"
+}
